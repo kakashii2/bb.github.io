@@ -6,8 +6,23 @@
     <title>first-</title>
     <link rel="stylesheet" href="css/whole.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/splash.css">
 </head>
 <body>
+    <!-- 스플래시 화면 -->
+    <div class="splash-container">
+        <div class="splash-screen">
+            <div class="brand-logo logo">
+                <img src="img/logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+     
+     
+
+
+    <!-- 메인 컨텐츠 -->
     <div class="container-wrapper">
         <!-- <div class="top-container">1</div> -->
         <div class="mid-container">
@@ -31,6 +46,23 @@
         </div>
         <!-- <div class="footer-container">3</div> -->
     </div>
+
+    <!-- JavaScript를 사용하여 스플래시 화면을 제거하고 메인 컨텐츠를 표시 -->
+    <script>
+        // 페이지가 로딩되면 스플래시 화면을 제거하고 메인 컨텐츠를 표시
+        window.addEventListener("load", function () {
+            var splashScreen = document.querySelector(".splash-screen");
+            var mainContent = document.querySelector("#main-content");
+
+            // 스플래시 화면을 표시한 시간(여기서는 3초) 후에 메인 컨텐츠를 표시
+            setTimeout(function () {
+                splashScreen.style.display = "none";
+                mainContent.style.display = "block";
+            }, 3000);
+        });
+    </script>
+
+    
     
 </body>
 </html>

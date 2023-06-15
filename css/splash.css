@@ -1,0 +1,30 @@
+
+  
+  .splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 393px;
+    height: 852px;
+    background-color: #5D86FE; 
+    z-index: 9999; /* 스플래시 화면을 다른 요소들 위에 표시하기 위해 z-index를 설정합니다 */
+  }
+  
+  .splash-screen img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+/* .splash-container {
+    width:393px;
+    height:852px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+

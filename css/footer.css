@@ -1,0 +1,46 @@
+.footer-container {
+    position: sticky;
+    bottom: 0;
+    
+    width: 100vw;
+    height: 70px;
+    
+  
+  
+    background-image: url(../img/footer_bar.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .btn-yellow {
+    width: 101px;
+    height: 28px;
+    padding: 6px 13px 6px 13px;
+    object-fit: contain;
+    border-radius: 14px;
+    background-color: #ffc748;
+  }
+  
+  
+  .footer-container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+  
+    
+  }
+  
+  .game-button {
+    position: absolute;
+    bottom : 55px;
+    background-color: #5d86fe;
+    padding: 16px 10px 16px 10px;
+    border-radius: 50%;
+    
+  
+    width: 55px;
+    height: 55px;
+    
+  }
