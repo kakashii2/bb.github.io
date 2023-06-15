@@ -1,0 +1,127 @@
+.container-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #eef2ff;;
+}
+
+* {
+    width: 100%;
+    text-align: center;
+}
+
+.mid-container {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-container-p {
+  margin : 0 0 8vh 0 ;
+  font-size: 20px;
+  font-weight: 600;
+  color: #5d86fe;
+}
+
+.mid-container-logo img{
+    width: 176px;
+    height: 159.7px;
+}
+
+.mid-container-formWrapper {
+    display: flex;
+    flex-direction: column;
+    padding : 0 13% 0 13%;
+    align-items: center;
+}
+
+.mid-container-formWrapper-p {
+    width: 142px;
+    height: 24px;
+    margin: 87.1px 0 0 2.7%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left !important;
+    color: #2d6af7;
+}
+
+
+.mid-container-formWrapper-input {
+    width: 100%;
+    height: 46px;
+    margin : 23px 0 0 0;
+    padding: 15px 23px 15px 23px;
+    object-fit: contain;
+    border-radius: 23px;
+    border: solid 1px #5d86fe;
+    background-color: #fff;
+
+    display:flex;
+    text-align: left;
+}
+
+.id::placeholder {
+    background-image: url("../img/id_logo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px; /* 아이콘 이미지의 크기에 따라 조정 */
+}
+.pw::placeholder {
+    background-image: url("../img/pw_logo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px; /* 아이콘 이미지의 크기에 따라 조정 */
+}
+
+.mid-container-formWrapper-subfunction {
+    display : flex;
+    justify-content: space-between;
+    font-size : 12px;
+    margin : 25px 0 33px 0;
+}
+
+.mid-container-formWrapper-subfunction-wrapper {
+    display: flex;
+}
+
+.mid-container-formWrapper-subfunction-wrapper input {
+    width: 14px;
+  height: 14px;
+  margin-right:5px;
+  border: solid 1px #5d86fe;
+  background-color: #fff;
+}
+
+
+
+/* .mid-container-form {
+    margin : 8vh 0 0 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.mid-container-form-underbutton {
+    font-size : 12px;
+    display: block;
+    
+}
+
+.mid-container-form-underbutton a {
+    text-decoration: none;
+    color: #5d86fe;
+}
+
+.mid-container-form-underbutton p,
+.mid-container-form-underbutton a {
+    display: inline;
+    
+    margin-right: 10px;
+} */
+
+
